@@ -15,7 +15,7 @@ namespace ModernMessageBoxWPF
 
         private void btnMBOk_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxOk messageOk = new MessageBoxOk("Information..", "This is Information about ..........", 200, 500, @"/Images/information.png", @"/Images/information.png");
+            MessageBoxOk messageOk = new MessageBoxOk("Information..", "This is Information about ..........", 200, 500, @"/Images/information.png", @"/Images/askquestion.png");
             messageOk.Owner = this;
             messageOk.ShowDialog();
         }
